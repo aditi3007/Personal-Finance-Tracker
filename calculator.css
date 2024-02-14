@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image:url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2ltcGxlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .input-section button {
+    padding: 5px 20px 5px 20px;
+    background-color: #0e204e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .expenses-list {
+    margin: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #0e204e;
+    color: white;
+  }
+
+  tfoot td {
+    font-weight: bold;
+  }
+
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  select{
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .image{
+    height:100px;
+    width: 100px;
+    background-image: url(https://cdn.pixabay.com/animation/2023/02/11/10/05/10-05-10-522_512.gif);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    border-radius: 50%;
+  }

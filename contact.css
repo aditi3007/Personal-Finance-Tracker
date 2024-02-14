@@ -1,0 +1,10 @@
+body {
+    background-image:url(https://burst.shopifycdn.com/photos/contact-us-image.jpg?width=1000&format=pjpg&exif=0&iptc=0);
+    background-size: cover;
+}
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px solid black;
+    background-color: azure;
+}
